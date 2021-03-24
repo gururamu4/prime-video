@@ -11,7 +11,8 @@ import homeRequests from "./homeRequests";
 import TV from "./components/TV/index";
 
 function App() {
-  const api_key = "";
+  // 5404fb63b6a8a8e306864ea475eba828
+  const api_key = "5404fb63b6a8a8e306864ea475eba828";
   return (
     <Router>
       <div className="App">
@@ -41,7 +42,7 @@ function App() {
                 <Home
                   api_key={api_key}
                   requests={requests}
-                  slideShowUrl={`https://api.themoviedb.org/3/movie/popular?api_key=989a8027930013244e3c2af17088dcac&language=en-US&page=1`}
+                  slideShowUrl={`https://api.themoviedb.org/3/movie/popular?api_key=5404fb63b6a8a8e306864ea475eba828&language=en-US&page=1`}
                 />
               )}
             />
@@ -52,7 +53,7 @@ function App() {
                 <Home
                   api_key={api_key}
                   requests={tvrequests}
-                  slideShowUrl={`https://api.themoviedb.org/3/tv/popular?api_key=989a8027930013244e3c2af17088dcac&language=en-US&page=1`}
+                  slideShowUrl={`https://api.themoviedb.org/3/tv/popular?api_key=5404fb63b6a8a8e306864ea475eba828&language=en-US&page=1`}
                 />
               )}
             />
