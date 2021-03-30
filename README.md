@@ -1,5 +1,5 @@
 This project is a Amazon Prime Clone using ReactJS and NodeJs. You can run the below commands to see the project on your local system. 
-Hosted on Firebase at https://prime-clone-e1de6.firebaseapp.com/
+Hosted on Firebase at https://amzon-prime.netlify.app/
 This is the version 1 of the project.
 For getting Data I have used TMDB API. For running the App locally you will have to generate your own API_Key and substitute in all requests files and App.js files.
 You can check out other ReactJs projects as well in other repositories deployed on firebase.
